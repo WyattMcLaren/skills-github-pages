@@ -1,32 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>PixelScape Blog</title>
+    <title>My Neo-Brutalist Blog</title>
+    <style>
+        body {
+            background-color: #f0e6f6;
+            font-family: monospace;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: monospace;
+        }
+        h1 {
+            margin-bottom: 50px;
+        }
+        a {
+            color: #8e8d8a;
+            text-decoration: none;
+            border: 2px dotted #8e8d8a;
+            padding: 5px;
+        }
+        a:hover {
+            color: #f0e6f6;
+            background-color: #8e8d8a;
+        }
+        .post-title {
+            font-size: 24px;
+            margin-bottom: 0;
+        }
+        .post-meta {
+            margin-top: 0;
+            color: #8e8d8a;
+        }
+        .post-content {
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>PixelScape Blog</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Articles</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <article>
-            <h2>Embracing Neo-Brutalism and Pastels</h2>
-            <p>Welcome to the world of PixelScape, where raw aesthetics meet delicate pastel nuances.</p>
-        </article>
-        <!-- Add more articles here -->
-    </main>
-    <footer>
-        <p>&copy; 2023 PixelScape Blog. All rights reserved.</p>
-    </footer>
+    <h1>My Neo-Brutalist Blog</h1>
+    <hr>
+    <div class="post">
+        <h2 class="post-title"><a href="#">My First Post</a></h2>
+        <p class="post-meta">Posted on August 12, 2023 by Admin</p>
+        <div class="post-content">
+            <p>Welcome to my neo-brutalist blog! This is my first post.</p>
+        </div>
+    </div>
+    <hr>
+    <div class="post">
+        <h2 class="post-title"><a href="#">My Second Post</a></h2>
+        <p class="post-meta">Posted on August 13, 2023 by Admin</p>
+        <div class="post-content">
+            <p>This is my second post on my neo-brutalist blog.</p>
+        </div>
+    </div>
 </body>
 </html>
